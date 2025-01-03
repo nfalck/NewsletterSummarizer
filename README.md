@@ -77,5 +77,9 @@ status, however keep in mind, that others could have access to the project, so b
 - Instead of clustered summaries added together, use Map-Reduce method instead to make a final summary of all the summaries
 - Make a nicely formatted PDF of the summary or email the text content
 
+## Acknowledgements
+
+Credit to [article 1](https://medium.com/@preetipriyanka24/how-to-read-emails-from-gmail-using-gmail-api-in-python-20f7d9d09ae9) and [article 2](https://thepythoncode.com/article/use-gmail-api-in-python) for help in fetching the content from the Gmail messages.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
