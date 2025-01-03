@@ -3,7 +3,7 @@ import gmail
 import summarize
 
 # write your newsletters in the list
-emails = ["klementoninvesting@substack.com", "community@amplifyme.com", "dan@tldrnewsletter.com"]
+emails = []
 
 # fetch the emails and put their content into collectedemails.txt
 gmail.get_emails(gmail.query_setter(emails=emails))
