@@ -68,6 +68,10 @@ After 7 days, it will ask for access again.
 The duration of the token can apparently be increased by publishing your project to be in "in production" 
 status, however keep in mind, that others could have access to the project, so be careful to keep your OAuth credentials safe. 
 
+7. **Schedule the main.py script:**
+
+   Schedule the main.py script through crontab or a task scheduler.
+
 ## Future Improvements
 
 - Instead of clustered summaries added together, use Map-Reduce method instead to make a final summary of all the summaries
