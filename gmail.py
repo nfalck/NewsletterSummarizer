@@ -41,7 +41,7 @@ def query_setter(emails):
 
   # Add to the query the specific dates to look for
   today = datetime.date.today()
-  week = today - datetime.timedelta(days=6)
+  week = today - datetime.timedelta(days=7)
   query += "after:"
   query += week.strftime("%Y/%m/%d")
   query += " "
